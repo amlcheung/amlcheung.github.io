@@ -1,1 +1,32 @@
-contacts css
+.page-color {
+    background: pink;
+}
+
+.header {
+    font-family: cursive;
+    font-size: 50px;
+    
+}
+
+.page-container {
+    display: flex;
+    width: 100%;
+    top: 25px;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    justify-content: center;
+}
+
+.contacts-container {
+    display: flex;
+    width: 97%;
+    background-color: white;
+    border: 2px dashed grey;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}

@@ -1,1 +1,49 @@
-projects css
+.page-color {
+    background: pink;
+}
+
+.header {
+    font-family: cursive;
+    font-size: 50px;
+
+    
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+.projects-container {
+    display: grid;
+    width: 97%;
+    justify-items: start;
+    align-items: center;
+    right: 100px;
+    top: 25px;
+    background-color: white;
+    border: 2px dashed grey;
+    padding: 10px 10px 10px 10px;
+    /* margin: -20px 10px 10px auto; */
+
+    grid-template-areas: 
+        "title description"
+    ;
+    grid-template-columns: 5fr 10fr;
+    column-gap: 50px;
+
+}
+
+
+
+.title {
+    grid-area: title;
+}
+
+
+.description {
+    grid-area: description;
+    
+}
