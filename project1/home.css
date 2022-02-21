@@ -1,3 +1,45 @@
-.style {
-    color: red;
+.page-color {
+    background: pink;
+}
+
+
+
+#name-box {
+    height: 100px;
+    /* Width: use 100% to create a block-level element that takes
+        up the remaining space inside of the parent */
+    width: 100%;
+    background-color: lightyellow;
+  }
+
+  .my-name-format {
+    position: relative;
+    /* top: 25%; */
+    text-align: center;
+    font-size: 400%;
+    color: black;
+    font-family: cursive;
+
+  }
+
+  .my-name-format:hover {
+      background-color: aquamarine;
+  }
+
+
+.navbar-container {
+    display: flex;
+    width: 100%;
+
+
+}
+
+.sticky-class {
+    position: sticky;
+    top: 0;
+}
+
+
+.title-container {
+
 }
