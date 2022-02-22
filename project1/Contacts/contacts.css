@@ -25,6 +25,11 @@
 
 }
 
+.sticky-class {
+    position: sticky;
+    top: 0px;
+}
+
 
 
 .page-container {
