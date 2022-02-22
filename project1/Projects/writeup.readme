@@ -1,0 +1,34 @@
+Link to Website: https://amlcheung.github.io/project1/ 
+Link to GitHub repo: https://github.com/amlcheung/amlcheung.github.io 
+
+
+1. The most challenging part was handling margin/padding/even line spacing 
+between different types of text. Since I have never written any HTML/CSS before
+this class, it took me a minute to figure it out, but once I got it, this project
+was not too bad. It took me about 15 hours. 
+
+2. I used fr for grids so that the padding/margins would be adjusted for. I used percents for
+width/height for the header box so that the nav bar and header would be aligned on the home page when 
+the screen was less than 600px (defined in the @media query). For the navbar and photos-container 
+(aboutMe.css), I used flex-wrap so that the contents would be 
+positioned neatly on smaller screen sizes where all of the contents can not fit on one line. 
+I used justify content and align items so that positioning of content in the grid/flex would 
+be adjusted. I also used sticky positioning so that the nav bar stayed on the top of the 
+screen when users were viewing the website with a medium that could not fit the whole page 
+on the screen all at once without scrolling.
+
+3. I knew I wanted to make my background a light pink color, so when I added borders to my
+photos on the About Me page, I picked colors that were different but adjacent colors by 
+adjusing the tone/shade/tint to provide some contrast. I also utilized Font Pairing by choosing 
+cursive for the headers and regular text for the text body to create a contrast that supports 
+heirarchy. I also chose to use the cursive font because I felt it matched the light pink background 
+and made the website appear friendly/welcoming since I want to showcase myself through this website.  
+
+4. I would add more styling to make the website more visually appealing. This may include
+rounding the edges of the boxes (i.e. the white text boxes) or playing more with different
+shading techniques across different elements of the webpage. I would also add audio (song that 
+matches the current picture) when the user hovers over the images on the About Me page. 
+
+5. I have never written any HTML/CSS before this class, so it take me about 15 hours. Particularly, I spent 
+some time learning more about grids, after realizing I didnt really understand them after taking Quiz1. 
+I also spent time just playing around with the different styling options in css as I found this pretty fun. 

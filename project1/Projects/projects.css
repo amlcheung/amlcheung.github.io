@@ -4,8 +4,7 @@
 
 .header-text {
     font-family: cursive;
-    font-size: 50px;
-    
+    font-size: 50px;    
 }
 
 .header-box {
@@ -23,7 +22,6 @@
     flex-wrap: wrap;
     background-color:palevioletred;
     align-items: baseline;
-
 }
 
 .sticky-class {
@@ -36,13 +34,10 @@
     font-family: cursive;
 }
 
-
-
 .projects-container {
     display: grid;
     justify-items: stretch;
     align-items: center;
-    position: relative;
     background-color: white;
     border: 2px dashed grey;
     padding: 20px;
@@ -52,16 +47,4 @@
     it won't overflow */
     grid-auto-rows: minmax(10px, auto);
     grid-gap: 2em;
-
 }
-
-
-/* 
-.title {
-    grid-area: title;
-}
-
-
-.description {
-    grid-area: description;    
-} */

@@ -6,7 +6,6 @@
 .header-text {
     font-family: cursive;
     font-size: 50px;
-    
 }
 
 .header-box {
@@ -24,7 +23,6 @@
     flex-wrap: wrap;
     background-color:palevioletred;
     align-items: baseline;
-
 }
 
 .sticky-class {
@@ -36,7 +34,6 @@
     font-size: large;
     font-family: cursive;
 }
-
 
 .text-container {
     display: flex;
@@ -55,7 +52,6 @@
 
 .ordinary-text-format {
     line-height: 2;
-    /* margin-bottom: 1rem; */
 }
 
 .photos-container {
@@ -63,7 +59,6 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-
 }
 
 .image-format {
@@ -75,6 +70,12 @@
     height: 300px;
     width: 300px;
     transition-duration: 0.5s;
+}
+
+@media (hover: hover) {
+    image-format:hover {
+        border: 3px;
+    }
 }
 
 .image-format:nth-child(1) {
@@ -92,6 +93,3 @@
 .image-format:nth-child(4) {
     border: 5px solid rgba(230, 79, 225, 0.81);
 }
-
-
-

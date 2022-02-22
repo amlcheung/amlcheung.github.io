@@ -5,13 +5,11 @@
 .header-text {
     font-family: cursive;
     font-size: 50px;
-    
 }
 
 .header-box {
     width: 100%;
     height: 100%;
-    /* margin: 10px; */
     text-align: center;
 }
 
@@ -54,12 +52,10 @@
     grid-auto-rows: minmax(10px, auto);
 }
 
-
 .position-title-font {
     font-weight: bold;
     font-size: medium;
 }
-
 
 .title-format {
     margin-bottom: -10%;
@@ -71,6 +67,3 @@
 .sub-text-format {
     margin-left: 3%;
 }
-
-
-
