@@ -23,63 +23,25 @@
     flex-wrap: wrap;
     background-color:palevioletred;
     align-items: baseline;
-
 }
 
 .sticky-class {
     position: sticky;
     top: 0px;
 }
-/* .page-color {
-    background: pink;
+
+.current-page {
+    font-size: large;
+    font-family: cursive;
 }
 
-
-.name-box {
-    height: 100%;
-    /* Width: use 100% to create a block-level element that takes
-        up the remaining space inside of the parent */
-    /* width: 100%;
-    text-align: center;
-  }
-
-.my-name-format {
-text-align: center;
-font-size: 3em;
-color: black;
-font-family: cursive; */
-
-/* } */
-
 @media(max-width: 600px) {
-    .name-box {
+    .header-box {
         background-color: palevioletred;
     }
 }
 
-/* .navbar-container {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color:palevioletred;
-
-}
-
-.sticky-class {
-    position: sticky;
-    top: 0px;
-} */
-
 .experience-education-container {
-
-    /* right: 100px;
-    top: 25px;
-    background-color: white;
-    border: 2px dashed grey;
-    padding: 20px; */
-    
     display: grid;
     justify-items: stretch;
     align-items: stretch;
@@ -93,15 +55,21 @@ font-family: cursive; */
 }
 
 
-.font {
+.position-title-font {
     font-weight: bold;
-    font-size: large;
+    font-size: medium;
 }
 
 
-.current {
-    font-size: large;
-    font-family: cursive;
+.title-format {
+    margin-bottom: -10%;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.sub-text-format {
+    margin-left: 3%;
 }
 
 
