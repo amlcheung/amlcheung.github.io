@@ -13,30 +13,41 @@
     text-align: center;
 }
 
+.navbar-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: paleturquoise;
 
+}
 
-.projects-container {
-    display: grid;
-    width: 97%;
-    justify-items: start;
-    align-items: center;
-    right: 100px;
-    top: 25px;
-    background-color: white;
-    border: 2px dashed grey;
-    padding: 10px 10px 10px 10px;
-    margin-bottom: 5px;
-
-    grid-template-areas: 
-        "title description"
-    ;
-    grid-template-columns: 5fr 10fr;
-    column-gap: 50px;
-
+.sticky-class {
+    position: sticky;
+    top: 0px;
 }
 
 
 
+.projects-container {
+    display: grid;
+    justify-items: stretch;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    border: 2px dashed grey;
+    padding: 20px;
+    /* stick to fr rather than % or will have issues with padding/margin */
+    grid-template-columns: 1fr 4fr;
+    /* use auto row so that if you get a row with text that takes more than 10px space, 
+    it won't overflow */
+    grid-auto-rows: minmax(10px, auto);
+    grid-gap: 2em;
+
+}
+
+
+/* 
 .title {
     grid-area: title;
 }
@@ -44,4 +55,4 @@
 
 .description {
     grid-area: description;    
-}
+} */
