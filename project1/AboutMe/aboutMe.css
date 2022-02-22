@@ -23,6 +23,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     background-color:palevioletred;
+    align-items: baseline;
 
 }
 
@@ -30,6 +31,12 @@
     position: sticky;
     top: 0px;
 }
+
+.current {
+    font-size: large;
+    font-family: cursive;
+}
+
 
 .text-container {
     display: flex;
