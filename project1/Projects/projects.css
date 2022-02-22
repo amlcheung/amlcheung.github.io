@@ -18,7 +18,8 @@
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
-    background-color: paleturquoise;
+    flex-wrap: wrap;
+    background-color:palevioletred;
 
 }
 

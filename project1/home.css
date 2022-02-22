@@ -8,7 +8,7 @@
     /* Width: use 100% to create a block-level element that takes
         up the remaining space inside of the parent */
     width: 100%;
-    /* background-color: lightyellow; */
+    text-align: center;
   }
 
 .my-name-format {
@@ -21,19 +21,17 @@ font-family: cursive;
 
 @media(max-width: 600px) {
     .name-box {
-        background-color: aqua;
+        background-color: palevioletred;
     }
 }
-
 
 .navbar-container {
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
-    align-items: baseline;
-    background-color: palevioletred;
-
+    flex-wrap: wrap;
+    background-color:palevioletred;
 
 }
 
@@ -68,8 +66,6 @@ font-family: cursive;
     font-size: large;
 }
 
-.header-format {
-}
 
 .current {
     text-shadow: 2px 2px 5px red;

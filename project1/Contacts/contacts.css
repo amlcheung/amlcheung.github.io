@@ -9,9 +9,20 @@
 }
 
 .header-box {
+    height: 100%;
     width: 100%;
     margin: 10px;
     text-align: center;
+}
+
+.navbar-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:palevioletred;
+
 }
 
 
@@ -27,7 +38,7 @@
 
 .contacts-container {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     background-color: white;
     border: 2px dashed grey;
     justify-content: center;

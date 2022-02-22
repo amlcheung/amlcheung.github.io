@@ -11,6 +11,7 @@
 
 .header-box {
     width: 100%;
+    height: 100%;
     margin: 10px;
     text-align: center;
 }
@@ -20,6 +21,7 @@
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     background-color:palevioletred;
 
 }
@@ -28,3 +30,61 @@
     position: sticky;
     top: 0px;
 }
+
+.text-container {
+    display: flex;
+    background-color: white;
+    border: 2px dashed grey;
+    padding: 10px 10px 10px 10px;
+    align-items: baseline;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.key-word-format {
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.ordinary-text-format {
+    line-height: 2;
+    /* margin-bottom: 1rem; */
+}
+
+.photos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.image-format {
+    height: 200px;
+    width: 200px;
+}
+
+.image-format:hover {
+    height: 300px;
+    width: 300px;
+    transition-duration: 0.5s;
+}
+
+.image-format:nth-child(1) {
+    border: 5px solid rgba(165, 6, 67, 0.981);
+}
+
+.image-format:nth-child(2) {
+    border: 5px solid salmon;
+}
+
+.image-format:nth-child(3) {
+    border: 5px solid rgba(102, 4, 99, 0.796);
+}
+
+.image-format:nth-child(4) {
+    border: 5px solid rgba(230, 79, 225, 0.81);
+}
+
+
+
